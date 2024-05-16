@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;   
+}
+header{
+    padding: 20px 0;
+    border-bottom: 1px solid #EEF0F3;
+}
+.container {
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+
+.logo {
+    float: left;
+    width: 10%;
+    
+}
+.logo img{
+    width: 100%;
+
+}
+
+.menu {
+    margin-top: 3px;
+    float: right;
+    width: 60%;
+
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+ float: left;
+}  
+.menu ul li a{
+   font-family: sans-serif;
+   font-size: 20px;
+   font-weight: 400;
+   color: #0F2656;
+   text-decoration: none;
+   margin: 0px 20px;
+   display: inline-block;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+
+.banner{
+    padding: 60px 0;
+    /*border: 1px solid red;*/
+}
+.container2{
+    width: 55%;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+}
+.b_content{
+    font-family: sans-serif;
+    text-align: center;
+}
+.b_content h1{
+    margin: 0px;
+   font-size: 45px;
+   font-weight: 700;
+   color: #0F2656;
+
+}
+.b_content h2{
+    margin: 10px 0;
+    font-size: 45px;
+    font-weight: 700;
+    color: #008AFF;
+ }
+.b_content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F2656;
+    /*line-height: 23px;*/
+    word-spacing: 1px;
+    
+}
+.b_img{
+    margin: 0 auto;
+    width: 75%;
+    /*border: 1px solid red;*/
+}
+.b_img img {
+     width: 100%;
+}
+
+success{
+    padding: 60px 0;
+}
+.s_content{
+   overflow: hidden;
+   font-family: sans-serif;
+}
+.s_left{
+    width: 40%;
+    float: left;
+    /*border: 1px solid red;*/
+    text-align: right;
+}
+.s_left h2{
+    font-size: 45px;
+   font-weight: 700;
+   color: #F15767;
+   margin: 0 0 10px;
+}
+.s_left p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F2656; 
+    margin: 0;
+    line-height: 25px;
+    word-spacing: 1px;
+    padding-left: 15px;
+}
+.s_right{
+   width: 50%;
+   float: right;
+   /*border: 1px solid red;*/
+   padding-right: 15px;
+}
+.s_right h1{
+    margin: 0;
+    font-size: 45px;
+    font-weight: 700;
+    color: #0F2656;
+}
+
